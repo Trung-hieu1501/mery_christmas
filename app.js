@@ -13,3 +13,7 @@ content.onclick = function(){
 Close.onclick = function(){
     boxContent.classList.remove('active')
 }
+window.onload = function() {
+  var audio = document.querySelector("audio");
+  audio.play();
+};
